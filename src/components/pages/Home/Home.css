@@ -8,3 +8,28 @@ body {
     width: 70%;
     text-align: center;
 }
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cards {
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#buttons button:focus {
+    background-color:red;
+}
+
+#centrado {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}

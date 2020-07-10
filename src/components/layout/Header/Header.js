@@ -8,10 +8,10 @@ export default function Header(){
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <button className='btn-primary'><Link className="navbar-brand" to="/">Home</Link></button>
+                        <Link className="navbar-brand" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <button className='btn-primary'><Link className="navbar-brand" to="/recetas">Recetas</Link></button>
+                        <Link className="navbar-brand" to="/recetas">Recetas</Link>
                     </li>
                 </ul>
             </div>
